@@ -1,4 +1,3 @@
-#React Weather App
 // Madeline Gowan
 // 3/20/2023
 // React Weather App
