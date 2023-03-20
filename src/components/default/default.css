@@ -1,0 +1,19 @@
+@media screen and (min-width: 427px){
+    html,
+    body,
+    #root {
+        height: auto;
+        background-color: #96C1CE;
+    }
+}
+
+@media screen and (max-width: 426px){
+    html,
+    body,
+    #root {
+        height: auto;
+        background-color: #96C1CE;
+    }
+}
+
+
