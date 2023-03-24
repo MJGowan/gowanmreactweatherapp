@@ -1,10 +1,74 @@
+@font-face {
+    font-family: 'Inter', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+}
+@font-face {
+    font-family: 'InterBold', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+}
+
 @media screen and (min-width: 427px){
     html,
     body,
     #root {
         height: auto;
         background-color: #96C1CE;
+        background-image: url('../../Assets/test-weather.jpg');
+        background-repeat: no-repeat;
+        background-size: auto;
+        font-family: 'Inter', sans-serif;
+        font-size: 30px;
     }
+
+    .input{
+        height:50px;
+    }
+
+    .daily{
+        background-color:#EBEBEB;
+        border-radius: 10px;
+        height:350px;
+    }
+
+    .fiveDays{
+        background-color: #2F6F93;
+        color:#EBEBEB;
+        border-radius: 10px;
+    }
+
+    .location{
+        font-size:80px;
+        font-weight:bolder;
+        color:#215B7C;
+        text-align: center;
+        margin-left: 30px;
+    }
+
+    .localStar{
+        margin-left: -50px;
+    }
+
+    .currentTemp{
+        font-size:80px;
+        font-weight:bold;
+    }
+
+    .favTitle{
+        margin-top: 30px;
+    }
+
+    .hr{
+        margin-top: -10px;
+    }
+
+    .button{
+        background-color:#2F6F93;
+        border-color:#2F6F93;
+        border-radius:7px;
+        height: 50px;
+        font-size: 25px;
+    }
+
 }
 
 @media screen and (max-width: 426px){
@@ -13,7 +77,77 @@
     #root {
         height: auto;
         background-color: #96C1CE;
+        background-image: url('../../Assets/test-weather.jpg');
+        background-repeat: no-repeat;
+        background-size: auto;
+        font-family: 'Inter', sans-serif;
+        font-size: 10px;
     }
+
+    .daily{
+        background-color:#EBEBEB;
+        border-radius: 10px;
+        height: 140px;
+    }
+
+    .days{
+        margin-top: -285px;
+    }
+
+    .fiveDays{
+        background-color: #2F6F93;
+        color:#EBEBEB;
+        border-radius: 10px;
+        width: 120px;
+        margin-bottom: 10px;
+    }
+
+    .img{
+        width:40px;
+    }
+    .mainImg{
+        width:60px;
+    }
+
+    .location{
+        font-size: 20px;
+        font-weight: bolder;
+        color:#215B7C;
+        margin-left: 10px;
+    }
+
+    .localStar{
+        margin-left: -20px;
+        margin-top:2px;
+    }
+
+    .currentTemp{
+        font-size:20px;
+        font-weight:bold;
+    }
+    .favTitle{
+        margin-top: 20px;
+    }
+    .hr{
+        margin-top: -5px;
+    }
+    
+    .button{
+        background-color:#2F6F93;
+        border-color:#2F6F93;
+        border-radius:7px;
+        height: 25px;
+        
+    }
+
 }
 
+.favorites{
+    background-color:#EBEBEB;
+    border-radius: 10px;
+}
+
+.date{
+    font-weight: bold;
+}
 
